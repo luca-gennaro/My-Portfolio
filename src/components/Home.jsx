@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroImage from "../assets/heroImage.jpeg"
+import HeroImage from "../assets/heroImage.png"
 import { MdArrowForwardIos } from "react-icons/md"
 
 const Home = () => {
@@ -11,13 +11,13 @@ const Home = () => {
                 
                 <div className='flex flex-col justify-center h-full'>
                     <h2 className='text-4xl sm:text-5xl font-bold text-white'>
-                        I'm a jr Full Stack Developer
+                        I'm a Full Stack <span className='text-blue-500'>Developer</span>
                     </h2>
                     <p className='text-gray-500 py-4 max-w-md'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aut amet reiciendis omnis vitae! At, molestias autem quae doloremque quia explicabo provident quo hic commodi iusto doloribus ad illum a.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aut amet reiciendis omnis vitae!
                     </p>
                     <div>
-                        <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
+                        <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-600 to-blue-500 cursor-pointer'>
                             Portfolio
                             <span className='group-hover:rotate-90 duration-300 ml-1'>
                                 <MdArrowForwardIos size={15}/>
@@ -27,7 +27,7 @@ const Home = () => {
                 </div>
                 <div>
                     <img src={HeroImage} alt="hero image"
-                        className='rounded-2xl mx-auto md:mr-0 w-1/2 md:w-2/3' />
+                        className='rounded-2xl mx-auto md:mr-0 w-1/2 md:w-2/3 bg-gradient-to-b from-white to-blue-500' />
                 </div>
 
             </div>
