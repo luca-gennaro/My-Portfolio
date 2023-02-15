@@ -77,7 +77,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 sm:grid-cols-3 gap-8 px-12 sm:px-0'>
                {skills.map(({ id, src, title, style }) => (
                   <div key={id} className={`flex flex-col items-center justify-center py-2 shadow-md rounded-lg ${style}`}>
-                     <img src={src} className="w-20 rounded-md duration-200 hover:scale-105" alt="" />
+                     <img src={src} className="w-14 rounded-md duration-200 hover:scale-105" alt="" />
                      <p className='mt-4'>{title}</p>
                   </div>
                ))}
