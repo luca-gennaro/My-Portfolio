@@ -8,13 +8,13 @@ const About = () => {
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-blue-400'>About</p>
             </div>
-            <p className='text-xl mt-20'>
+            <p className='mt-20'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. At quis nulla similique reiciendis necessitatibus voluptatem exercitationem animi commodi vero! Libero quis voluptatibus iste, omnis quam sed perspiciatis distinctio nesciunt veniam quibusdam itaque pariatur ea praesentium quas unde consequatur? Facere ipsam aspernatur doloribus sit reprehenderit sequi odio expedita possimus error praesentium.
             </p>
 
             <br />
 
-            <p className='text-xl'>
+            <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. At quis nulla similique reiciendis necessitatibus voluptatem exercitationem animi commodi vero! Libero quis voluptatibus iste, omnis quam sed perspiciatis distinctio nesciunt veniam quibusdam itaque pariatur ea praesentium quas unde consequatur? Facere ipsam aspernatur doloribus sit reprehenderit sequi odio expedita possimus error praesentium.
             </p>
             
