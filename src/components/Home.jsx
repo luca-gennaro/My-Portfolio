@@ -20,7 +20,7 @@ const Home = () => {
                 
                 <div className='flex flex-col justify-center h-full w-full md:w-2/3' >
                     <h2 className='text-4xl sm:text-5xl font-bold text-white'>
-                        Hi, I'm <span className='text-blue-500'>{text}</span>
+                        Hi, I'm <span className='text-blue-500'>{text}</span> <Cursor />
                     </h2>
                     <p className='text-gray-500 py-4 max-w-md'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aut amet reiciendis omnis vitae!
