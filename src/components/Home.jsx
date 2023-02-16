@@ -7,7 +7,7 @@ import { Link } from "react-scroll";
 const Home = () => {
 
     const [text] = useTypewriter({
-        words: ["Musician", "IT and technology enthusiast", "Full Stack Developer"],
+        words: ["IT and technology enthusiast", "Full Stack Developer"],
         deleteSpeed: 30,
     })
 
