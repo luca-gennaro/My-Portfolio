@@ -1,9 +1,16 @@
 import React from 'react'
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 import HeroImage from "../assets/heroImage.png"
 import { MdArrowForwardIos } from "react-icons/md"
 import { Link } from "react-scroll";
 
 const Home = () => {
+
+    const [text] = useTypewriter({
+        words: ["Musician", "IT and technology enthusiast", "Full Stack Developer"],
+        deleteSpeed: 30,
+    })
+
     return (
         <div name="home"
             className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'
@@ -12,7 +19,7 @@ const Home = () => {
                 
                 <div className='flex flex-col justify-center h-full'>
                     <h2 className='text-4xl sm:text-5xl font-bold text-white'>
-                        I'm a Full Stack <span className='text-blue-500'>Developer</span>
+                        I'm a  <span className='text-blue-500'>{text}</span><Cursor />
                     </h2>
                     <p className='text-gray-500 py-4 max-w-md'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aut amet reiciendis omnis vitae!
