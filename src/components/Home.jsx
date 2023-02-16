@@ -7,8 +7,9 @@ import { Link } from "react-scroll";
 const Home = () => {
 
     const [text] = useTypewriter({
-        words: ["IT and technology enthusiast", "Full Stack Developer"],
+        words: ["Luca", "IT enthusiast", "Full Stack Developer"],
         deleteSpeed: 30,
+        loop: 0
     })
 
     return (
@@ -17,9 +18,9 @@ const Home = () => {
         >
             <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
                 
-                <div className='flex flex-col justify-center h-full'>
+                <div className='flex flex-col justify-center h-full w-full md:w-2/3' >
                     <h2 className='text-4xl sm:text-5xl font-bold text-white'>
-                        I'm a  <span className='text-blue-500'>{text}</span><Cursor />
+                        I'm <span className='text-blue-500'>{text}</span><Cursor />
                     </h2>
                     <p className='text-gray-500 py-4 max-w-md'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aut amet reiciendis omnis vitae!
